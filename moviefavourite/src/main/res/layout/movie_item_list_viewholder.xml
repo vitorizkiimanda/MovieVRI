@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/favourite_item"
+    android:layout_marginBottom="2dp">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="fill_parent"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/movie_poster"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingLeft="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_title"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:id="@+id/movie_title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_descripton"
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/movie_description"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/release_date"
+            android:textSize="14sp"
+            android:id="@+id/movie_date"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MovieVRI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Vito Rizki Imanda</string>
+    <string name="nav_header_subtitle">vitorizkiimanda@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="home">Beranda</string>
+    <string name="search">Pencarian</string>
+    <string name="favourite">Favorit</string>
+    <string name="preferences">Preferensi</string>
+    <string name="settings">Pengaturan</string>
+    <string name="now_playing">Sedang Diputar</string>
+    <string name="up_coming">Akan Datang</string>
+    <string name="search_button_word">CARI</string>
+    <string name="movie_title">Judul Film</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="movie_descripton">deskripsi film</string>
+    <string name="add_widget">Tambahkan widget</string>
+    <string name="empty_text">Tidak ada film favorit</string>
+    <string name="appwidget_text">Film Favorit</string>
+    <string name="daily_title">Content title</string>
+    <string name="daily_text">Content text</string>
+    <string name="subtext">Sub text</string>
+</resources>
